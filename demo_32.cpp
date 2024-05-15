@@ -1,18 +1,18 @@
-#include<iostream>
+#include <iostream>
 
-class IceTray
-{
+class IceTray {
+public:
   std::string fish_shape;
   std::string star_shape;
 
-  void status(){
-      std::cout << "Crystal which is in fish shape is "<< fish_shape << " and the one in star shape is " << star_shape << std::endl;
-  
+  void status() {
+    std::cout << "Crystal which is in fish shape is " << fish_shape
+              << " and the one in star shape is " << star_shape << std::endl;
   }
 };
 
-int main(){
-  
+int main() {
+
   // declare an object of class IceTray
   IceTray orange_juice;
 
